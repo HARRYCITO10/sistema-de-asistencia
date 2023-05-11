@@ -1,0 +1,33 @@
+name: flutter_application_1
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0-376.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: mi_fuente
+      fonts:
+        - asset: fonts/TitanOne-Regular.ttf
+
+    - family: fuente_prueba
+      fonts:
+        - asset: fonts/Creepster-regular.ttf
+
+
+
+  assets:
+   - assets/
